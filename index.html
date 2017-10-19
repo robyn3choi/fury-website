@@ -1,0 +1,410 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>WE ARE FURY</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="https://www.hive.co/loadwidget/" type="text/javascript"></script>
+    <style id="cart-styling"></style>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#intro" id="logo-link-mobile"><img src="assets/images/logo.png" class="logo" width="40px" height="auto"></a>
+            <a href="#" id="menu-icon"><img src="assets/images/menu-icon.png"></a>
+            <ul>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="#tour">TOUR</a></li>
+                <li id="logo-button"><a href="#intro"><img src="assets/images/logo.png" class="logo"></a></li>
+                <li><a href="#shop">SHOP</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- intro -->
+    <section id="intro" class="main style1 dark fullscreen">
+        <div class="content">
+            <ul class="socials">
+
+                <!-- socials -->
+                <li><a href="https://twitter.com/wearefurymusic" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+
+                <li><a href="https://www.facebook.com/wearefurymusic" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+
+                <li><a href="https://www.instagram.com/wearefurymusic/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+
+                <li><a href="https://soundcloud.com/wearefury" target="_blank" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li>
+
+                <li><a href="https://open.spotify.com/artist/44Wi4QHWK4CzACCqCyxo3x" target="_blank" class="icon fa-spotify"><span class="label">Spotify</span></a></li>
+
+
+            </ul>
+            <a href="#music" class="button style2 down">More</a>
+        </div>
+    </section>
+
+
+    <!-- music -->
+    <section id="music">
+        <h1>MUSIC</h1>
+        <hr>
+        <div class="embedded-music-container">
+            <iframe class="music" width="400" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/336411947&amp;color=%23191919&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+            <iframe class="music" src="https://open.spotify.com/embed?uri=spotify:artist:44Wi4QHWK4CzACCqCyxo3x" width="400" height="600" frameborder="0" allowtransparency="true"></iframe>
+        </div>
+    </section>
+
+
+    <!-- tour -->
+    <section id="pic2" class="main style2 dark fullscreen">
+    </section>
+    <section id="tour">
+        <h1>TOUR</h1>
+        <hr>
+        <div id="tour-table-container">
+            <p>TBA</p>
+
+
+            <!-- TOUR DATES -->
+            <!-- Uncomment table below to show tour dates, and edit values -->
+
+
+<!--             <table id="tour-dates">
+                <thead>
+                    <tr>
+                        <th width="20%"><span>Date</span></th>
+                        <th width="35%"><span>Venue</span></th>
+                        <th width="30%"><span>Location</span></th>
+                        <th width="15%" class="last-column"><span>Tickets</span></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span>10.14.2017</span></td>
+                        <td><span>Celebrities</span>
+                            <br>
+                        </td>
+                        <td><span>Vancouver, BC</span></td>
+                        <td class="last-column"><span><a class="buy-ticket button" target="_blank" href="http://celebrities.electrostub.com/event.cfm?id=185007">Buy</a></span></td>
+                    </tr>
+                    <tr>
+                        <td><span>10.14.2017</span></td>
+                        <td><span>Celebrities</span>
+                            <br>
+                        </td>
+                        <td><span>Vancouver, BC</span></td>
+                        <td class="last-column"><span><a class="buy-ticket button" target="_blank" href="http://celebrities.electrostub.com/event.cfm?id=185007">Buy</a></span></td>
+                    </tr>
+                </tbody>
+            </table> -->
+        </div>
+    </section>
+
+
+    <!-- pic3 -->
+    <section id="pic3" class="main style2 dark fullscreen">
+    </section>
+
+
+    <!-- shop -->
+    <section id="shop">
+        <h1>SHOP</h1>
+        <hr>
+        <div id='shop-container'>
+
+
+            <!-- SHOPIFY EMBED -->
+
+            <div id='collection-component-4c047281a1a'></div>
+            <script type="text/javascript">
+            /*<![CDATA[*/
+
+            (function() {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                    if (window.ShopifyBuy.UI) {
+                        ShopifyBuyInit();
+                    } else {
+                        loadScript();
+                    }
+                } else {
+                    loadScript();
+                }
+
+                function loadScript() {
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = scriptURL;
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+                    script.onload = ShopifyBuyInit;
+                }
+
+                function ShopifyBuyInit() {
+                    var client = ShopifyBuy.buildClient({
+                        domain: 'we-are-fury.myshopify.com',
+                        apiKey: 'bcefa18bd302eb3c88accc3efd502ea4',
+                        appId: '6',
+                    });
+
+                    ShopifyBuy.UI.onReady(client).then(function(ui) {
+                        ui.createComponent('collection', {
+                            id: 7259914268,
+                            node: document.getElementById('collection-component-4c047281a1a'),
+                            moneyFormat: '%24%7B%7Bamount%7D%7D',
+                            options: {
+                                "product": {
+                                    "variantId": "all",
+                                    "contents": {
+                                        "imgWithCarousel": false,
+                                        "variantTitle": false,
+                                        "description": false,
+                                        "buttonWithQuantity": false,
+                                        "quantity": false
+                                    },
+                                    "styles": {
+                                        "product": {
+                                            "@media (min-width: 601px)": {
+                                                "max-width": "calc(50% - 40px)",
+                                                "margin-left": "40px",
+                                                "margin-bottom": "50px"
+                                            }
+                                        },
+                                        "button": {
+                                            "background-color": "#717171",
+                                            "color": "#eeeeee",
+                                            "font-family": "Gill Sans, sans-serif",
+
+                                            ":hover": {
+                                                "background-color": "#828282",
+                                                "color": "#eeeeee"
+                                            },
+                                            "border-radius": "0px",
+                                            ":focus": {
+                                                "background-color": "#9b9b9b"
+                                            },
+                                            "font-weight": "normal"
+                                        },
+                                        "variantTitle": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "title": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal",
+                                            "color": "#c7c7c7"
+                                        },
+                                        "description": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "price": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "color": "#c7c7c7",
+                                            "font-weight": "normal"
+                                        },
+                                        "compareAt": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal",
+                                            "color": "#c7c7c7"
+                                        }
+                                    }
+                                },
+                                "cart": {
+                                    "contents": {
+                                        "button": true
+                                    },
+                                    "styles": {
+                                        "button": {
+                                            "background-color": "#717171",
+                                            "color": "#eeeeee",
+                                            "font-family": "Gill Sans, sans-serif",
+                                            ":hover": {
+                                                "background-color": "#828282",
+                                                "color": "#eeeeee"
+                                            },
+                                            "border-radius": "0px",
+                                            ":focus": {
+                                                "background-color": "#828282"
+                                            },
+                                            "font-weight": "normal"
+                                        },
+                                        "footer": {
+                                            "background-color": "#ffffff"
+                                        }
+                                    }
+                                },
+                                "modalProduct": {
+                                    "contents": {
+                                        "img": false,
+                                        "imgWithCarousel": true,
+                                        "variantTitle": false,
+                                        "buttonWithQuantity": true,
+                                        "button": false,
+                                        "quantity": false
+                                    },
+                                    "styles": {
+                                        "product": {
+                                            "@media (min-width: 601px)": {
+                                                "max-width": "100%",
+                                                "margin-left": "0px",
+                                                "margin-bottom": "0px"
+                                            }
+                                        },
+                                        "button": {
+                                            "background-color": "#717171",
+                                            "color": "#eeeeee",
+                                            "font-family": "Gill Sans, sans-serif",
+                                            ":hover": {
+                                                "background-color": "#828282",
+                                                "color": "#eeeeee"
+                                            },
+                                            "border-radius": "0px",
+                                            ":focus": {
+                                                "background-color": "#828282"
+                                            },
+                                            "font-weight": "normal"
+                                        },
+                                        "variantTitle": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "title": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "description": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "price": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        },
+                                        "compareAt": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "font-weight": "normal"
+                                        }
+                                    }
+                                },
+                                "toggle": {
+                                    "styles": {
+                                        "toggle": {
+                                            "font-family": "Gill Sans, sans-serif",
+                                            "background-color": "#717171",
+                                            ":hover": {
+                                                "background-color": "#828282"
+                                            },
+                                            ":focus": {
+                                                "background-color": "#828282"
+                                            },
+                                            "font-weight": "normal"
+                                        },
+                                        "count": {
+                                            "color": "#eeeeee",
+                                            ":hover": {
+                                                "color": "#eeeeee"
+                                            }
+                                        },
+                                        "iconPath": {
+                                            "fill": "#eeeeee"
+                                        }
+                                    }
+                                },
+                                "option": {
+                                    "styles": {
+                                        "label": {
+                                            "font-family": "Gill Sans, sans-serif"
+                                        },
+                                        "select": {
+                                            "font-family": "Gill Sans, sans-serif"
+                                        }
+                                    }
+                                },
+                                "productSet": {
+                                    "styles": {
+                                        "products": {
+                                            "@media (min-width: 601px)": {
+                                                "margin-left": "-40px"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        });
+                    });
+                }
+            })();
+            /*]]>*/
+            </script>
+
+            <!-- END SHOPIFY EMBED -->
+
+        </div>
+    </section>
+
+
+    <!-- pic4 -->
+    <section id="pic4" class="main style2 dark fullscreen">
+    </section>
+
+
+
+    <!-- contact -->
+    <section id="contact">
+        <h1>CONTACT</h1>
+        <hr>
+        <div id="contact-emails">
+            Management: <span class="email">nathan@generationmusicgroup.com</span>
+        </div>
+
+
+
+    <!-- mailing list popup link -->
+        <a class="hive-modal-launcher button" target="_blank" href="https://www.hive.co/l/2d1nc" data-widget-type="signup" data-object-id="661">Subscribe for updates</a>
+    </section>
+
+
+    <!-- pic5 -->
+    <section id="pic5">
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer">
+
+
+        <!-- footer socials -->
+        <ul class="socials">
+            <li><a href="https://twitter.com/wearefurymusic" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+
+            <li><a href="https://www.facebook.com/wearefurymusic" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+
+            <li><a href="https://www.instagram.com/wearefurymusic/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+
+            <li><a href="https://soundcloud.com/wearefury" target="_blank" class="icon fa-soundcloud"><span class="label">SoundCloud</span></a></li>
+
+            <li><a href="https://open.spotify.com/artist/44Wi4QHWK4CzACCqCyxo3x" target="_blank" class="icon fa-spotify"><span class="label">Spotify</span></a></li>
+        </ul>
+
+
+        <!-- copyright -->
+        <div id="copyright">&copy; 2017 WE ARE FURY</div>
+    </footer>
+
+
+    <!-- scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
